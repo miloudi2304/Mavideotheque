@@ -52,6 +52,20 @@ let nouveautableau = [
 console.log(`voici tout les titres de mes films :${nouveautableau}`);
 
 
+//for( let i=0; i<toutelavideotheque.length; i++)
+
+for (let listedefilm of toutelavideotheque) {
+console.log(`le film a pour titre : ${listedefilm.titre}`);
+console.log(`le nom du realisateur est : ${listdefilmfilm.realisateur}`);
+console.log(`Sa durée est de : ${listdefilmfilm.duree}`);
+console.log(`Voici la description du film : ${listdefilm.description}`);
+console.log(`et l'acteur principal est : ${listdefilm.acteurprincipal}`);
+console.log("==============================================================")
+}
+
+
+
+
 
 
 
