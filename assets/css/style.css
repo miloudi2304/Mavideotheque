@@ -3,3 +3,31 @@
 .rose{color: purple;}
 .violet{color:blueviolet;}
 .bleu{color:blue;}
+
+ .container{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+    
+}  
+.card-img-top{
+    width: 288px;
+}
+
+.descrip{
+   overflow:scroll;
+   
+    max-height:100px;
+   
+}
+#contenu a{
+    text-decoration: none;
+    color:white;
+    background-color: blue;
+    width: fit-content;
+    padding: 6px;
+    margin: auto;
+
+}
