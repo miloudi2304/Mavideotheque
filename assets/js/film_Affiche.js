@@ -1,7 +1,7 @@
 const myMovie = new URLSearchParams(window.location.search).get("id");
 console.log(myMovie);
 
-const movieFetch2 = fetch(`http://localhost:3000/api/movies/${myMovie}`);
+const movieFetch2 = fetch(api + `api/movies/${myMovie}`);
 
 movieFetch2
     .then(function (res) {
@@ -14,7 +14,7 @@ movieFetch2
         contenu = document.getElementById("contenu");
 
         contenu.insertAdjacentHTML("beforeend", `
-       <div class="col-3 offset-1" >
+       <div class="col-4 offset-4" >
             <div class="card" style="width: 18rem;">
                 <img src="${film.logo}" class="card-img-top" alt="logo du film">
                     <div class="card-body">
@@ -24,7 +24,7 @@ movieFetch2
                         <h5 class="card-text descrip "> <span class="bleu">Description du Film :</span> ${film.description} ...</h5>
                         <h5 class="card-text"> <span class="violet">Acteur Principal : </span>${film.acteurprincipal}</h5>
                         <h5 class="card-text">pourcentage visionné : ${pourcentagevisionnage(film.dureeVisionee,film.duree)}%</h5>
-                        <a href="index.html">Retour a la page principale</a>
+                        <a href="index.html">Retour Accueil</a>
                     </div>
             </div>
         </div>    

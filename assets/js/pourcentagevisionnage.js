@@ -1,4 +1,7 @@
+const api ="https://fine-rose-lovebird-hem.cyclic.app/"
+
 const  pourcentagevisionnage =(partial,total) => Math.round(partial/total*100);
+
 
 const tohourauminutes =(duree)=>{
     const heures = Math.floor(duree/60);

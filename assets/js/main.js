@@ -94,12 +94,3 @@ for (let film of films){
 
 //const pourCentageParfilm =  (${film.duree / 100})
 
-
-
-
-
-
-
-
-
-

@@ -17,7 +17,7 @@
 }
 
 .descrip{
-   overflow:scroll;
+   overflow:auto;
    
     max-height:100px;
    
@@ -29,5 +29,30 @@
     width: fit-content;
     padding: 6px;
     margin: auto;
+    
 
+}
+h1{text-align: center;
+margin-bottom: 30px;}
+
+#contenu{
+    margin-top: 30px;
+    
+  
+}
+.list_footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding:0;
+
+
+}
+.list_footer li{
+margin-top: 90px;
+   padding-left: 10%;
+}
+li a{
+    color: rgb(45, 143, 235);
 }
